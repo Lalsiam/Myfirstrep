@@ -6,7 +6,7 @@ int main()
 {
 	int num,temp,remainder,reverse=0;
 	printf("Enter an integer\n");
-	sacnf("%d",&num);
+	scanf("%d",&num);
 	temp=num;
 	while (num>0)
 	{
@@ -18,9 +18,12 @@ int main()
 	printf("Its reverse is =%d\n",reverse);
 
 	if (temp==reverse)
-		printf("Number is palindrome\n")
-	else
-
-		printf("Number is not a palindrome\n");
+		{
+			printf("Number is palindrome\n");	
+		}	
+		else
+		{
+			printf("Number is not a palindrome\n");
+		}
 return 0;
 }
